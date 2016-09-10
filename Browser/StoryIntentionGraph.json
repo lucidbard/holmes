@@ -1,0 +1,293 @@
+{
+  "name": "SIG",
+  "type": "schema",
+  "version": "1.0.0",
+  "schemaId":0,
+  "nodeTypes": {
+    "TE": {
+      "name": "Text",
+      "description": "Continuous span of surface discourse",
+      "id": 0,
+      "properties": [
+        {
+          "id": "prop-0",
+          "name": "Property",
+            "type": "String",
+          "defaultValue": "Default"
+        }
+      ]
+    },
+    "P": {
+      "name": "Proposition",
+      "description": "A unit of discrete story-world content, such as an occurring action or event, typically pertaining to an agent.",
+      "id": 1
+    },
+    "S": {
+      "name": "State",
+      "description": "An instant of story-world time",
+      "id": 2
+    },
+    "T": {
+      "name": "Timeline",
+      "description": "Represent a continuum of states in the story-world.",
+      "id": 3
+    },
+    "I": {
+      "name": "Interpretive Proposition",
+      "description": "A unit of story content, equivalent to a P node in the Interpretative space. Either Hypothetical (H), Actualized (A) or Prevented/Ceased (PC) with respect to each State of the main Timeline",
+      "id": 4
+    },
+    "G": {
+      "name": "Goal",
+      "description": "Indicates that certain I, G or B nodes are the goal of an agent",
+      "id": 5
+    },
+    "B": {
+      "name": "Belief",
+      "description": "Indicates that certain I, G or B nodes are the belief of an agent",
+      "id": 6
+    },
+    "A": {
+      "name": "Affect",
+      "description": "The baseline affectual state of an agent",
+      "id": 7
+    }
+  },
+  "linkTypes": {
+    "f": {
+      "name": "Follows",
+      "description": "Ordering of text spans in a discourse or ordering of states in a timeline",
+      "left_nodes": [
+        "TE",
+        "S"
+      ],
+      "right_nodes": [
+        "TE",
+        "S"
+      ],
+      "homogeneous": true,
+      "id": 0
+    },
+    "ia": {
+      "name": "Interpreted As",
+      "description": "Equivalence between TE and P nodes",
+      "left_nodes": [
+        "TE",
+        "P"
+      ],
+      "right_nodes": [
+        "P",
+        "TE"
+      ],
+      "id": 1,
+      "homogeneous": false
+    },
+    "ba": {
+      "name": "Begins at",
+      "description": "Connects a proposition to its temporal initiation state",
+      "left_nodes": [
+        "P"
+      ],
+      "right_nodes": [
+        "S"
+      ],
+      "id": 2
+    },
+    "ea": {
+      "name": "Ends at",
+      "description": "Connects a proposition to its temporal termination state",
+      "left_nodes": [
+        "P"
+      ],
+      "right_nodes": [
+        "S"
+      ],
+      "id": 3
+    },
+    "in": {
+      "name": "In",
+      "description": "Connects a State to its Timeline",
+      "left_nodes": [
+        "S"
+      ],
+      "right_nodes": [
+        "T"
+      ],
+      "id": 4
+    },
+    "r": {
+      "name": "Referenced by",
+      "description": "Connects a Timeline to a P or I node that incorporates it modally",
+      "left_nodes": [
+        "T"
+      ],
+      "right_nodes": [
+        "P",
+        "I"
+      ],
+      "id": 5
+    },
+    "e": {
+      "name": "Equivalent",
+      "description": "Connects State nodes referring to the same moment in two Timelines",
+      "left_nodes": [
+        "S"
+      ],
+      "right_nodes": [
+        "S"
+      ],
+      "id": 6
+    },
+    "im": {
+      "name": "Implies",
+      "description": "Implication by a P node of an I, G or B node",
+      "left_nodes": [
+        "P"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 7
+    },
+    "a": {
+      "name": "Actualizes",
+      "description": "Links a P node to an I, G or B node when the reader infers that the latter becomes actualized because of the former",
+      "left_nodes": [
+        "P"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 8
+    },
+    "c": {
+      "name": "Ceases",
+      "description": "Links a P node to an I, G or B node when the reader infers that the latter becomes prevented/ceased because of the former",
+      "left_nodes": [
+        "P"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 9
+    },
+    "wc": {
+      "name": "Would cause",
+      "description": "Link between one I, G or B node and another that is sufficient for its actualization",
+      "left_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 10
+    },
+    "wp": {
+      "name": "Would prevent",
+      "description": "Link between one I, G or B node and another that is sufficient for its prevention/cessation",
+      "left_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 11
+    },
+    "pf": {
+      "name": "Precondition for",
+      "description": "Link between one I, G or B node and another that is necessary for its actualization",
+      "left_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 12
+    },
+    "pa": {
+      "name": "Precondition against",
+      "description": "Link between one I, G or B node and another that is necessary for its prevention/cessation",
+      "left_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 13
+    },
+    "ac": {
+      "name": "Attempt to cause",
+      "description": "Indicates intention by the agent of a P node to actualize an I, G or B node",
+      "left_nodes": [
+        "P"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 14
+    },
+    "ap": {
+      "name": "Attempt to prevent",
+      "description": "Indicates intention by the agent of a P node to prevent/cease an I, G or B node",
+      "left_nodes": [
+        "P"
+      ],
+      "right_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "id": 15
+    },
+    "p": {
+      "name": "Provides for",
+      "description": "A positive affectual impact of an I, G or B node (traversing to A)",
+      "left_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "right_nodes": [
+        "A"
+      ],
+      "id": 16
+    },
+    "d": {
+      "name": "Damages",
+      "description": "A negative affectual impact of an I, G or B node (traversing to A)",
+      "left_nodes": [
+        "I",
+        "G",
+        "B"
+      ],
+      "right_nodes": [
+        "A"
+      ],
+      "id": 17
+    }
+  }
+}

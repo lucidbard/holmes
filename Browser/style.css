@@ -1,0 +1,228 @@
+body {
+  margin:0px;
+  overflow:hidden;
+}
+
+.editSegment {
+  display:inline-block;
+}
+#thumbnail
+{display:none;position:absolute;width: 160px;height: auto;top:0;left:0;z-index: 1000;pointer-events:none;}
+
+#editLine {
+}
+
+#shot_sequence {
+  position:absolute;
+  bottom:0px;
+  overflow-x:scroll;
+  white-space: nowrap;
+  height:150px;
+}
+.shot_thumb {
+vertical_align:middle;
+}
+
+#script {width: 50%;height: 100%;background-color:lightblue;vertical-align:top;overflow-y: scroll;}
+
+span.speaker {
+display:block;
+verticle-align:middle;
+text-align:center;
+pointer-events:none;
+}
+
+span.linetext {
+font-family:monospace;
+margin-left: 10%;
+margin-right:10%;
+padding: 5px;
+display:block;
+pointer-events:none;
+}
+p.line {
+-webkit-margin-before:0px;
+-webkit-margin-after:0px;
+margin-left: 20%;
+margin-right:20%;
+padding-left:5%;
+padding-right:5%;
+background-color:white;
+border-radius: 15px;
+}
+p.line.selected {
+background-color:yellow;
+}
+p.line.playing {
+background-color:lightgreen;
+}
+
+p.line:hover {
+background-color:gold;
+}
+p.line.text {
+margin-left: 5%;
+margin-right: 5%;
+
+}
+.outer_div {
+    display:inline-block;
+}
+
+.selection_label {
+    display:table-cell;
+    vertical-align:middle;
+    padding:30px;
+    font-size:-webkit-xxx-large;
+    height:120px;
+    font-family:fantasy;
+}
+
+#myVideo {width: 50%;
+height:auto;
+/* display: none; */
+float: left;}
+
+label { 
+    padding:0.4em 2em 0.4em 0; 
+}
+
+.toggle-btn-grp {
+    margin: 0px;
+    width: 200px;
+    display:block;
+    white-space:normal;
+}
+.toggle-btn {
+    text-align:center;
+    margin:0px 0px;
+    padding:0.15em .25em;
+    width:190px;
+    color:#000;
+    background-color:#FFF;
+    border-radius:10px;
+    border:solid 1px #CCC;
+    cursor:pointer;
+    display:inline-block;
+}
+img.shot_thumb {
+    display:inline-block;
+    vertical_align:middle;
+}
+
+.toggle-btn:hover { 
+    border:solid 1px #a0d5dc !important; 
+    background:#f1fdfe;
+}
+
+
+.toggle-btn.success { 
+    background:lightgreen;
+    border:solid 1px green !important; 
+}
+
+
+.visuallyhidden { 
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px; 
+}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { 
+    clip: auto; 
+    height: auto; 
+    margin: 0; 
+    overflow: visible; 
+    position: static; 
+    width: auto; 
+}
+circle.node {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.link {
+    stroke: #777;
+    stroke-width: 2px;
+}
+.node text {
+  pointer-events: none;
+  font: 25px sans-serif;
+  stroke: #FFF;
+  fill: #FFF;
+  color: white;
+}
+text.node_label {
+  pointer-events: none;
+  font: 25px sans-serif;
+  stroke: #000;
+  fill: #000;
+}
+svg {
+  background-color: #FFF;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+svg:not(.active):not(.ctrl) {
+  cursor: crosshair;
+}
+path.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 4px;
+  cursor: default;
+}
+svg:not(.active):not(.ctrl) path.link {
+  cursor: pointer;
+}
+path.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 4px;
+  cursor: default;
+}
+
+svg:not(.active):not(.ctrl) path.link {
+  cursor: pointer;
+}
+
+path.link.selected {
+  stroke-dasharray: 10,2;
+}
+
+path.link.dragline {
+  pointer-events: none;
+}
+
+path.link.hidden {
+  stroke-width: 0;
+}
+
+circle.node {
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
+
+circle.node.reflexive {
+  stroke: #000 !important;
+  stroke-width: 2.5px;
+}
+
+text {
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
+text.id {
+  text-anchor: middle;
+  font-weight: bold;
+}

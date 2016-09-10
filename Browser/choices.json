@@ -1,0 +1,520 @@
+[{
+		"segment_id": 1,
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "I'm looking at a 3 foot toad.",
+			"next_segment": 2,
+			"valence": -1
+		}, {
+			"alt_id": 2,
+			"choice_text": "Enough excuses, Toad.",
+			"next_segment": 2,
+			"valence": -1
+		}, {
+			"alt_id": 3,
+			"choice_text": "No harm done.",
+			"next_segment": 2,
+			"valence": 1
+		}, {
+			"alt_id": 4,
+			"choice_text": "...",
+			"next_segment": 2,
+			"valence": -1
+		}]
+	}, {
+		"segment_id": 3,
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "I don't make the rules.",
+			"next_segment": 4
+		}, {
+			"alt_id": 1,
+			"choice_text": "Get it fixed.",
+			"next_segment": 4
+		}, {
+			"alt_id": 2,
+			"choice_text": "Not my problem.",
+			"next_segment": 4
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next_segment": 4
+		}]
+	}, {
+		"segment_id": 5,
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "So what have I walked into?",
+			"next_segment": 7
+		}, {
+			"alt_id": 1,
+			"choice_text": "What do you want me to do?",
+			"next_segment": 7
+		}, {
+			"alt_id": 2,
+			"choice_text": "[Head Upstairs]",
+			"next_segment": 8
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next_segment": 7
+		}]
+	}, {
+		"segment_id": 7,
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "Do it yourself.",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Why's he so pissed?",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "I'm heading up.",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"exploration": [{
+			"alt_id": 0,
+			"item_description": "Matchbook",
+			"action_text": "Pick up"
+		}, {
+			"alt_id": 1,
+			"item_description": "Phone",
+			"action_text": "Use"
+		}, {
+			"alt_id": 2,
+			"item_description": "Door",
+			"actions": [{
+				"alt_id": 3,
+				"position": "bottom",
+				"description": "knock"
+			}, {
+				"alt_id": 4,
+				"position": "right",
+				"description": "kick"
+			}]
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "What's going on here?",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Alright, why'd you hit her?",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "Everyone calm down!",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "This is your last warning.",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "You're drunk...",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "[threaten him]",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "What's going on here?",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Alright, why'd you hit her?",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "Everyone calm down!",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"quicktime_event": {
+			"key": "up"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_choice": {
+			"choices": [{
+				"alt_id": 0,
+				"description": "couch",
+				"mouse": "left"
+			}, {
+				"alt_id": 1,
+				"description": "sink",
+				"mouse": "left"
+			}]
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_choice": {
+			"choices": [{
+				"alt_id": 0,
+				"description": "bedspring",
+				"mouse": "left"
+			}, {
+				"alt_id": 1,
+				"description": "cabinet",
+				"mouse": "left"
+			}]
+		}
+	}, {
+		"quicktime_event": {
+			"key": "down"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_choice": {
+			"choices": [{
+				"alt_id": 0,
+				"description": "sink",
+				"mouse": "left"
+			}, {
+				"alt_id": 1,
+				"description": "desk",
+				"mouse": "left"
+			}]
+		}
+	}, {
+		"quicktime_event": {
+			"key": "down"
+		}
+	}, {
+		"quicktime_event": {
+			"key": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"key": "right"
+		}
+	}, {
+		"quicktime_event": {
+			"key": "down"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_choice": {
+			"choices": [{
+				"alt_id": 0,
+				"description": "bedspring",
+				"mouse": "left"
+			}, {
+				"alt_id": 1,
+				"description": "cabinet",
+				"mouse": "left"
+			}]
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"key": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"type": "struggle",
+			"key": "q"
+		}
+	}, {
+		"quicktime_event": {
+			"key": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "Say that word again.",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "SHUT UP!",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "Be nice, or I'll make you wait outside",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "What happened?",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "What are you doing here?",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "You need to leave.",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "What happened?",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "What are you doing here?",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "You need to leave.",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "What's your name?",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Are you hurt?",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "Why was he hitting you?",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "HEY!",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "[Throw him out]",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "Will you excuse me a moment?",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "Sorry about the car.",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Get off the street.",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "How's your insurance?",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"quicktime_event": {
+			"mouse": "left"
+		}
+	}, {
+		"quicktime_event": {
+			"type": "struggle",
+			"key": "q"
+		}
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "What are you doing?",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Leave him alone.",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "Thanks...",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "Let her",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Stop her",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "Light her cigarette...",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Make a joke...",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "[Give her the matchbook]",
+			"required_item": "Matchboook",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "Beautiful...",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Stop changing the subject.",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "I'm trying to help you.",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "This is about Fabletown.",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "He hit you.",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "Are you sure?",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "[give her some money]",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "Wish I could help",
+			"next": 20
+		}]
+	}, {
+		"choices": [{
+			"alt_id": 0,
+			"choice_text": "That's harsh.",
+			"next": 20
+		}, {
+			"alt_id": 1,
+			"choice_text": "I clean up okay.",
+			"next": 20
+		}, {
+			"alt_id": 2,
+			"choice_text": "Tell me what you really think.",
+			"next": 20
+		}, {
+			"alt_id": 3,
+			"choice_text": "...",
+			"next": 20
+		}]
+	}
+
+]

@@ -1,0 +1,577 @@
+.node_type_property_type {
+    display:inline;
+    width:auto;
+    font-size:14px;
+}
+.node_type_property_name {
+    font-size:14px;
+    padding-left:5px;
+    padding-right:10px;
+}
+
+
+
+.buttons {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.addButton {
+    margin-left:auto;
+}
+.deleteButton {
+   
+    margin-right:auto
+}
+.addButton, .deleteButton{
+    margin-bottom:5px;
+    margin-top:5px;
+
+    display:inline-block;
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    1px 1px 0px 0px rgba(0,0,0,.2);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         1px 1px 0px 0px rgba(0,0,0,.2);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+}
+
+#node_configuration {
+    background-color:#EEE;
+    border-style:solid;
+    border-width:0px 2px 2px 2px;
+    border-color:  #BBB; 
+    margin-left:10px;
+    margin-right:10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    display:none;
+}
+
+
+/*
+div.header:hover > button.addButton,div.subheader:hover > button.addButton{
+    visibility:visible
+}*/
+
+.boxsizingBorder {
+}
+
+#inspector_out {
+    display:none;
+}
+#inspector_in {
+    display:none;
+}
+label>span {
+    font-size:14px;
+    font-weight:bold;
+    display:inline-block;
+
+}
+.propertyTypeValue>label {
+    padding:0px;
+}
+
+.toggle-btn { 
+    text-align:left; 
+    margin:0px;
+    padding:0.4em 1em; 
+    color:#000; 
+    background-color:#FFF; 
+    border-radius:10px; 
+    display:inline-block; 
+    border:solid 3px #888; 
+    cursor:pointer;
+}
+
+span.header {
+    font-size:20px;
+    font-weight:bold;
+    margin-left:20%;
+    display:inline-block;
+    text-align:center;
+}
+
+div.header {
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+div.folded.header::before {
+    display: inline-block;
+    margin-left:10px;
+    width: 0;
+    height: 0;
+    vertical-align: 1px;
+    content: "";
+    border: 4px solid;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+}
+
+div.header::before {
+    display: inline-block;
+    margin-left:10px;
+    width: 0;
+    height: 0;
+    vertical-align: -2px;
+    content: "";
+    border: 4px solid;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+input[type=text] {
+    width:100%;
+    text-align:center;
+}
+#node_name_input {
+    font-size:18px;
+    font-weight:bold;
+    display:inline-block;
+    width:85%;
+}
+#link_name_input {
+    font-size:18px;
+    font-weight:bold;
+    display:inline-block;
+    width:85%;
+}
+textarea {
+      -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 50px;
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+}
+textarea.EditNodeTypePropertyName {
+    height: auto;
+    width: 66px;
+}    
+
+select {
+    display:inline-block;
+    width:100%;
+    padding:5px;
+    margin:0px;
+    overflow-y:hidden;
+    text-align:center;
+}
+
+#link_configuration {
+    display:none;
+    padding:0px;
+}
+#links label.symbol {
+    padding-right:15px;
+}
+
+label.symbol {
+    display:block;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:10px;
+    vertical-align:middle;
+    border-radius:20px;
+        text-align:right;
+
+}
+
+#links label.symbol > span {
+    vertical-align:middle;
+    position:relative;
+    top:6px;
+    height:30px;
+}
+
+button.browse {
+    color:#000;
+    width:50%;
+    height:40px;
+    font-size:16px;
+    padding:0px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#999;
+    border-radius:15px; 
+    display:inline-block; 
+}
+button:focus {
+  outline: none;
+}
+button {
+    width:30px;
+    font-size:22px;
+    height:30px;
+    padding:0px;
+    margin-left:auto;
+    margin-right:0px;
+    margin-top:.5em;
+    margin-bottom:.5em;
+    color:#999;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,adadad+100&0+0,0.65+100 */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(173,173,173,.4) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(173,173,173,.4) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(173,173,173,.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFFFF', endColorstr='#a6adadad',GradientType=0 ); /* IE6-9 */
+    border-radius:15px;
+    display:inline-block;
+    border:solid 1px #AAA;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* right: 0px; */
+}
+svg.labelNode {
+    vertical-align:middle;
+    position:relative;
+    right:-5px;
+}
+svg.canvas {
+  background-color: #FFF;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+h1, h2 { 
+  text-align: center;
+    font-weight: bold; 
+    font-size: 16px; 
+    line-height: 1em;
+    margin:0px;
+}
+
+h1 {
+  text-align: center;
+  padding:5px;
+  margin:2px;
+  background-color:black;
+  color:white;
+}
+
+div.controlgroup {
+  background-color:white;
+  border-radius: 5px;
+  padding-bottom:5px;
+  margin-bottom: 5px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+svg.canvas:not(.active):not(.ctrl) {
+  cursor: crosshair;
+}
+
+path.link {
+  fill: none;
+  stroke: #FFF;
+  stroke-width: 4px;
+  cursor: default;
+}
+
+svg.canvas:not(.active):not(.ctrl) path.link {
+  cursor: pointer;
+}
+
+path.link.selected {
+  stroke-dasharray: 10,2;
+}
+
+path.link.f {
+  stroke: #F00;
+}
+
+path.link.ia {
+  stroke: #0F0;
+}
+path.link.ba {
+  stroke: #0AA;
+}
+path.link.ea {
+  stroke: #AA0;
+}
+
+path.link.dragline {
+  pointer-events: none;
+}
+
+path.link.hidden {
+  stroke-width: 0;
+}
+
+.node circle {
+    stroke-width: 2px;
+    stroke: #FFF;
+  cursor: pointer;
+}
+
+circle.node {
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
+
+circle.node.reflexive {
+  stroke: #FFF !important;
+  stroke-width: 2.5px;
+}
+
+text {
+  font: 25px sans-serif;
+  pointer-events: none;
+}
+
+text.id {
+  text-anchor: middle;
+  font-weight: bold;
+}
+#center-panel {
+  float:left;
+}
+
+#left-panel {
+    width:180px;
+    display:inline-block;
+    float:left;
+    background-color:#DDD;
+}
+#graph-container {
+  float:left;
+  /*margin:15px;*/
+}
+
+body {
+  overflow:hidden;
+  margin:0px;
+}
+div#container {
+    width:100%;
+    height:100%;
+}
+
+div.box {
+  background-color:white;
+}
+
+div.inspectorgroup {
+    position:absolute;
+    margin:0px;
+  bottom:0px;
+  width:180px;
+  padding:0px;
+}
+#timeline_selection {
+    display:none;
+}
+
+#element_selection {
+    display:none;
+}
+#source-panel {
+    margin-left:0px;
+    background-color:white;
+    position: absolute;
+    bottom: 0px;
+    left:180px;
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+}
+#inspector textarea {
+      -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    height: auto;
+    width:100%;
+    padding: 0px;
+    margin:0px;
+}
+
+pre {
+    
+white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+#inspector {
+    overflow-y:scroll;
+    overflow-x:hidden;
+  max-height:300px;
+}
+
+p.subheader {
+    width:100%;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+span.subhead-title {
+    font-size:14px;
+    text-align:left;
+/*    padding-left:.5em; */
+    display:inline-block;
+    font-weight:bolder;
+}
+#link_type_explanation {
+    padding-bottom:5px;
+}
+#node_type_explanation {
+    cursor:text;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #FFF;
+    margin: 5px;
+}
+
+input.node_type_property_default {
+    display: inline;
+    width: 70px;
+    height: 29px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+#node_properties {
+    display:table;
+    width:100%;
+}
+#node_properties .node_property_value_row {
+    display:table-row;
+    width:100%;
+}
+
+#node_properties .property_value {
+    width: 100%;
+    display: table-cell;
+    vertical-align:middle;
+    margin-left:1em;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#node_properties .node_property_label {
+    display:table-cell;
+}
+
+#properties_label {
+    margin: 2px;
+    padding: 2px;
+    font-size: larger;
+    text-align: center;
+}
+
+#properties_label {
+    display:none;
+}
+
+
+label.local {
+    border:dashed 2px #000;    
+}
+
+.sourceLabel {
+    cursor:pointer;
+    border:solid 2px #000;
+    background-color:lightblue;
+    width:100%;
+    height:30px;
+    padding:5px;
+    margin:0px;
+    display:block;
+    box-sizing:border-box;
+}
+
+.schemaLabel {
+    cursor:pointer;
+    border:solid 2px #000;
+    background-color:lightblue;
+    width:100%;
+    height:30px;
+    padding:5px;
+    margin:0px;
+    display:block;
+    box-sizing:border-box;
+}
+.graphLabel {
+    cursor:pointer;
+    background-color:lightgreen;
+    border:solid 2px #000;
+    width:100%;
+    height:30px;
+    padding:5px;
+    margin:0px;
+    display:block;
+    box-sizing:border-box;
+}
+#available_schemas {
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#available_graphs {
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#inspector_log textarea {
+    margin: 0px;
+}
+
+#inspector_out label {
+    width:50%;
+    margin:0px;
+    box-sizing:border-box;
+}
+#inspector_out div {
+    overflow-y:hidden;
+}
+
+.graphLabel.loaded {
+    color:white;
+    border-color:white;
+    background-color:darkgreen;
+}
+
+.schemaLabel.loaded {
+    color:white;
+    border-color:white;
+    background-color:darkblue;
+}
+
+.octicon-plus {
+    margin-right: 1px;
+}
+.octicon {
+    width: 16px;
+    margin-top: 1px;
+    text-align: center;
+}
+.propertyTypeValue {
+    width:100%;
+    background-color:#FFF;
+}
+
+#myVideo {
+    height:150px;
+}

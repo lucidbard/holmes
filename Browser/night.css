@@ -1,0 +1,19 @@
+html {
+    background-color: #000;
+}
+svg.canvas {
+    background-color: #000;
+    border: 4px solid;
+    border-color: white;
+}
+
+circle.node {
+    stroke: #FFF !important;
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
+
+circle.node.reflexive {
+  stroke: #FFF !important;
+  stroke-width: 2.5px;
+}

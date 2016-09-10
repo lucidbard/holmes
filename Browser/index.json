@@ -1,0 +1,32 @@
+{
+  "schemas": [
+    {
+      "name": "SIG",
+      "version": "1.0.0",
+      "schemaId": 0,
+      "file": "StoryIntentionGraph.json"
+    }
+  ],
+  "graphs": [
+    {
+      "name": "default graph",
+      "schemas": [
+        [
+          0,
+          "1.0"
+        ]
+      ],
+      "version": "0.0.0",
+      "graphId": 0,
+      "file": "story.json"
+    }
+  ],
+  "sources": [
+    {
+      "name": "WolfAmongUs",
+      "sourceId": 0,
+      "type": "mp4",
+      "file": "source_1_medium.mp4"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+[
+    {
+        "lineid": 0,
+        "type": "text",
+        "text": "Episode 1"
+    },
+    {
+        "lineid": 1,
+        "type": "text",
+        "begin": "0:10:05",
+        "end": "0:32:21",
+        "text": "Once upon a time in New York City there lived a community of fairy tale characters known as Fabletown.The Fables who live there arrived hundreds of years ago, after they were exiled from their Homelands"
+    },
+    {
+        "lineid": 2,
+        "type": "text",
+        "begin": "0:17:18",
+        "end": "0:32:21",
+        "text": "Through the use of a magic spell called Glamour, they have protected their secret community from the mundane world."
+    },
+    {
+        "lineid": 3,
+        "type": "text",
+        "begin": "0:25:00",
+        "end": "0:32:21",
+        "text": "Sheriff Bigby Wolf protects them from each other."
+    },
+    {
+        "lineid": 4,
+        "type": "dialogue",
+        "begin": "0:36:15",
+        "end": "0:53:05",
+        "speaker": "Radio_announcer",
+        "text": "105 today if you missed it, a record for the day, hottest ever in June, 103 now, and that humidity looks low, but remember the hotter the air is, the more moisture it can hold, so 103 with 31% humidity is a lot more humid than, say, 73 with 31% humidity and it is muggy out there."
+    },
+    {
+        "lineid": 5,
+        "type": "Text",
+        "begin": "1:44:02",
+        "end": "1:51:32",
+        "text": "Tenement Building"
+    },
+    {
+        "lineid": 6,
+        "type": "Text",
+        "begin": "1:45:09",
+        "end": "1:51:32",
+        "text": "South Bronx"
+    },
+    {
+        "lineid": 7,
+        "type": "Text",
+        "begin": "1:46:06",
+        "end": "1:51:32",
+        "text": "Sometime after midnight..."
+    },
+    {
+        "lineid": 8,
+        "type": "text",
+        "begin": "1:49:11",
+        "end": "1:52:22",
+        "text": "Toad's/254 Barretto St The Bronx"
+    },
+    {
+        "lineid": 9,
+        "type": "dialogue",
+        "begin": "1:56:01",
+        "end": "1:56:29",
+        "speaker": "bigby",
+        "text": "Mr. Toad?"
+    },
+    {
+        "lineid": 10,
+        "type": "dialogue",
+        "begin": "1:57:05",
+        "end": "1:58:23",
+        "speaker": "toad",
+        "text": "Oh shit"
+    },
+    {
+        "lineid": 11,
+        "type": "dialogue",
+        "begin": "1:59:06",
+        "end": "2:01:06",
+        "speaker": "toad",
+        "text": "Bigby! Listen, mate"
+    },
+    {
+        "lineid": 12,
+        "type": "dialogue",
+        "begin": "2:01:07",
+        "end": "2:03:09",
+        "speaker": "toad",
+        "text": "I know I don't look human"
+    },
+    {
+        "lineid": 13,
+        "type": "dialogue",
+        "begin": "2:03:10",
+        "end": "2:10:03",
+        "speaker": "toad",
+        "text": "It's a problem, I get it, I just stepped out the apartment for just a second to see what kind of damage this drunk shit is doing."
+    },
+    {
+        "lineid": 14,
+        "type": "dialogue",
+        "begin": "2:10:29",
+        "end": "2:14:29",
+        "speaker": "toad",
+        "text": "Just cut me a break, yeah? I'll get me glamour first thing in the morning."
+    },
+    {
+        "lineid": 15,
+        "type": "dialogue",
+        "begin": "2:15:20",
+        "end": "2:16:17",
+        "speaker": "toad",
+        "text": "Cross my heart"
+    },
+    {
+        "lineid": 16,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "No need to kick up a fuss"
+    },
+    {
+        "lineid": 17,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "I'm looking at a 3 foot toad."
+    },
+    {
+        "lineid": 18,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "In a sweater... That's a problem."
+    },
+    {
+        "lineid": 19,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "If you can't afford to look human, you're going to The Farm."
+    },
+    {
+        "lineid": 20,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "It's as simple as that."
+    },
+    {
+        "lineid": 21,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "You can't send me up to live with those animals…"
+    },
+    {
+        "lineid": 22,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "You know what I mean"
+    },
+    {
+        "lineid": 23,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "Go see a witch. Get a glamour."
+    },
+    {
+        "lineid": 24,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "Bigby, they're bleedin' me dry, mate. The quality of the spell goes down, but the rates keep climbing up."
+    },
+    {
+        "lineid": 25,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "Do you have any idea how much it costs to have an entire family in glamour?"
+    },
+    {
+        "lineid": 26,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "Get it fixed. It's not complicated, Toad."
+    },
+    {
+        "lineid": 27,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "Whatever it costs, it's worth it."
+    },
+    {
+        "lineid": 28,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "You don't.."
+    },
+    {
+        "lineid": 29,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "..want me catching you out of glamour again."
+    },
+    {
+        "lineid": 30,
+        "type": "dialogue",
+        "speaker": "Woodsman",
+        "text": "Fuckin' hell"
+    },
+    {
+        "lineid": 31,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "See? This is what I called you about, Sheriff."
+    },
+    {
+        "lineid": 32,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "You just gonna stand there?"
+    },
+    {
+        "lineid": 33,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "Do something, Bigby."
+    },
+    {
+        "lineid": 34,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "Before he completely tears up the place."
+    },
+    {
+        "lineid": 35,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "And what exactly do you want me to do?"
+    },
+    {
+        "lineid": 36,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "I want you to throw the fuckin' Woodsman out of here. Drunk shit… He's been going on like that for hours. Turn.."
+    },
+    {
+        "lineid": 37,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "..this place to dust if you let him. He's in a fuckin' rage."
+    },
+    {
+        "lineid": 38,
+        "type": "dialogue",
+        "speaker": "Woodsman",
+        "text": "<grunt>"
+    },
+    {
+        "lineid": 39,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "This is the.."
+    },
+    {
+        "lineid": 40,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "last straw, Bigby. He has to go!"
+    },
+    {
+        "lineid": 41,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "So, what set him off?"
+    },
+    {
+        "lineid": 42,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "Who knows what it was this time. Man's got a hair trigger. I avoid him as much as possible."
+    },
+    {
+        "lineid": 43,
+        "type": "dialogue",
+        "speaker": "bigby",
+        "text": "When did he start drinking?"
+    },
+    {
+        "lineid": 44,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "Not sure he ever stopped."
+    },
+    {
+        "lineid": 45,
+        "type": "dialogue",
+        "speaker": "Faith",
+        "text": "[Crash] Fuck you."
+    },
+    {
+        "lineid": 46,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "I didn't know anyone else was up there."
+    },
+    {
+        "lineid": 47,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "Furry pricked gobshite… tell me how to spend my money… <spit>"
+    },
+    {
+        "lineid": 48,
+        "type": "dialogue",
+        "speaker": "Toad's child",
+        "text": "Dad? The.."
+    },
+    {
+        "lineid": 49,
+        "type": "dialogue",
+        "speaker": "Toad's child",
+        "text": "lights are shaking again…"
+    },
+    {
+        "lineid": 50,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "What'd I say? You want.."
+    },
+    {
+        "lineid": 51,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "the Big Bad Wolf to take you away?"
+    },
+    {
+        "lineid": 52,
+        "type": "dialogue",
+        "speaker": "Toad's child",
+        "text": "No."
+    },
+    {
+        "lineid": 53,
+        "type": "dialogue",
+        "speaker": "toad",
+        "text": "Then get the fuck back inside."
+    }
+]

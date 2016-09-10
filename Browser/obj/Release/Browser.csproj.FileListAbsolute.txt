@@ -1,0 +1,6 @@
+c:\users\lucid.visage\documents\visual studio 2015\Projects\Browser\Browser\bin\Browser.dll.config
+c:\users\lucid.visage\documents\visual studio 2015\Projects\Browser\Browser\bin\Browser.dll
+c:\users\lucid.visage\documents\visual studio 2015\Projects\Browser\Browser\bin\Browser.pdb
+c:\users\lucid.visage\documents\visual studio 2015\Projects\Browser\Browser\obj\Release\Browser.dll
+c:\users\lucid.visage\documents\visual studio 2015\Projects\Browser\Browser\obj\Release\Browser.pdb
+C:\Users\lucid.VISAGE\documents\visual studio 2015\Projects\Browser\Browser\obj\Release\Browser.csprojResolveAssemblyReference.cache

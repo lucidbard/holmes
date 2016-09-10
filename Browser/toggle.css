@@ -1,0 +1,86 @@
+body { 
+    padding: 0px; 
+    font-family: sans-serif; 
+}
+
+h1 { 
+    font-size:20px; 
+    margin-top:0; 
+}
+
+label { 
+    padding:0.4em 2em 0.4em 0; 
+}
+
+div {
+    /* float: left; */
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* padding:0px; */
+    /* margin: 0px; */
+}
+
+.toggle-btn-grp {
+    margin:0px 0;
+/*    overflow-y: scroll;*/
+    text-align:center;
+}
+.toggle-btn {
+    text-align:centre;
+    margin:0px;
+    padding:0.4em .5em;
+    color:#000;
+    background-color:#DDD;
+    border-radius:10px;
+    display:inline-block;
+    border:solid 2px #AAA;
+    cursor:pointer;
+}
+
+.toggle-btn-grp.joint-toggle .toggle-btn { 
+    margin:5px 0; 
+    padding:0.4em .5em; 
+    border-radius:0;
+    border-right-color:white;
+}
+.toggle-btn-grp.joint-toggle .toggle-btn:first-child { 
+    margin-left:2px; 
+    border-radius: 10px 0px 0px 10px; 
+}
+.toggle-btn-grp.joint-toggle .toggle-btn:last-child { 
+    margin-right:2px;  
+    border-radius: 0px 10px 10px 0px;
+    border-right:solid 2px #CCC;
+}
+
+
+.toggle-btn:hover { 
+    border:solid 2px #a0d5dc !important; 
+    background:#f1fdfe;
+}
+
+
+.toggle-btn.success { 
+    background:lightgreen;
+    border:solid 2px green !important; 
+}
+
+
+.visuallyhidden { 
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px; 
+}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { 
+    clip: auto; 
+    height: auto; 
+    margin: 0; 
+    overflow: visible; 
+    position: static; 
+    width: auto; 
+}

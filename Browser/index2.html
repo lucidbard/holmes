@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Schema Editor</title>
+    <script src="/Scripts/jquery-2.2.2.min.js">
+</script>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="toggle.css">
+    <link rel="stylesheet" href="night.css">
+    <link rel="stylesheet" href="http://dev.jtm.io/static/advancement/sg-editor/bower_components/octicons/octicons/octicons.css">
+
+  </head>
+  <body>
+    <div id="container">
+      <div id="left-panel">
+        <h1>Graphs & Schemas</h1>
+        <div class="controlgroup" id="graph_schema_selection">
+          <div class="header" id="schemaHeader"><span id="schemaName" class="header">Schemas</span>
+          </div>
+          <div id="available_schemas"><div class="buttons"><button  class="addButton" id="createSchema"><svg aria-hidden="true" class="octicon octicon-plus left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg></button><button class="deleteButton" id="deleteSchema"><svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z" />
+</svg></button></div></div>
+
+          <div class="header" id="graphHeader"><span id="graphName" class="header">Graphs</span>
+          </div>
+          <div id="available_graphs"><div class="buttons"><button class="addButton" id="createGraph"><svg aria-hidden="true" class="octicon octicon-plus left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg></button><button class="deleteButton" id="deleteGraph"><svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z" />
+</svg></button></div></div>
+          
+        </div>
+        <h1>Controls</h1>
+        <div class="controlgroup" id="element_selection">
+          <div class="header" id="elementHeader"><span id="elementName" class="header">Elements</span></div>
+          <div id="elements">
+            <div class="toggle-btn-grp box">
+              <label onclick="" class="toggle-btn success"><input type="radio" name="timelines" value="Reality"/>Reality</label>
+            </div>
+          </div>
+        </div>
+        <div class="controlgroup" id="timeline_selection">
+          <div class="header" id="timelineHeader"><span id="timelineName" class="header">Timelines</span></div>
+          <div id="timelines"><div class="toggle-btn-grp box">
+              <label onclick="" class="toggle-btn success"><input type="radio" name="timelines" value="Reality"/>Reality</label>
+            </div>
+          </div>
+        </div>
+        <div class="controlgroup" id="node_selection">
+          <div class="header"><span id="nodeName" class="header">Nodes</span></div>
+          <div id="nodes" class="toggle-btn-grp box">
+            <div id="node_configuration">
+              <div id="node_type_explanation"></div>
+              <span class="subhead-title">Properties</span>
+              <div class="buttons"><button class="addButton" name="create_node_type_property" value="create_node_type_property" id="createNodeTypeProperty"><svg aria-hidden="true" class="octicon octicon-plus left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg></button><button class="deleteButton" id="delete_node_type_property"><svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z" /></svg></button>
+              </div>
+              <div id="node_type_properties"></div>
+            </div>
+          </div>
+          <div class="buttons"><button class="addButton" name="create_node_type" value="create_node" id="createNodeType"><svg aria-hidden="true" class="octicon octicon-plus left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg></button><button class="deleteButton" id="delete_node_type"><svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="controlgroup" id="link_selection">
+          <div class="header" id="linkHeader"><span id="linkName" class="header">Links</span></div>
+          <div id="links">
+            <div id="link_configuration">
+              <label><input type="checkbox" id="link_directed">Directed</label>
+              <label><input type="checkbox" id="link_homogeneous">Homogeneous</label>
+              <br/>
+              <div style="width:50%;display:inline-block;text-align:center;margin-top:10px;background:white;">
+                <span >Left Side</span><br/><select class="validNodes" id="validLeftNodes" multiple="multiple" size = "1"></select><div class="toggle-btn-grp joint-toggle box" style="display:inline-block;width:100%;margin:0px;"><label onclick="" class="toggle-btn success"><input type="radio" name="leftHandNumber" value="one"/>One</label><label onclick="" class="toggle-btn"><input type="radio" name="leftHandNumber" value="many">Many</label></div></div><div style="width:50%;display:inline-block;text-align:center;margin-top:10px;background:white;"><span>Right Side</span><select class="validNodes" id="validRightNodes" multiple = "multiple" size = "1"></select><br/><div class="toggle-btn-grp joint-toggle box" style="display:inline-block;width:100%;margin:0px;"><label onclick="" class="toggle-btn success"><input type="radio" name="rightHandNumber" value="one"/>One</label><label onclick="" class="toggle-btn "><input type="radio" name="rightHandNumber" value="many">Many</label></div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons"><button class="addButton" name="create_link_type" value="create_link" id="createLinkType"><svg aria-hidden="true" class="octicon octicon-plus left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg></button><button class="deleteButton" id="delete_link_type"><svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z" /></svg></button></div>
+        </div>
+        <div class="controlgroup inspectorgroup">
+          <div id="inspector_container">
+            <div id="inspector" class="inspector_div">
+              <h3></h3>
+              <pre></pre>
+              <p id="properties_label">Properties</p>
+              <div id="node_properties">
+              </div>
+            </div>
+            <div id="inspector_log" class="inspector_div"><textarea></textarea></div>
+            <div id="inspector_history" class="inspector_div"></div>
+            <div id="inspector_in" class="inspector_div">
+              <p>Paste json below:</p><textarea id="json_input"></textarea><br/><button class="browse" id="load_content">Load</button><button class="browse" id="browse_file">Browse</button></div>
+            <div id="inspector_out" class="inspector_div">
+              <p>Current json below:</p><textarea id="json_output"></textarea><br/><button class="browse" id="save_json">Copy to Clipboard</button><button class="browse" id="save_file">Download</button><div class="toggle-btn-grp joint-toggle box" style="display:inline-block;width:100%;margin:0px;"><label onclick="" class="toggle-btn success"><input type="radio" name="out_schema_graph" value="out_graph"/>Graph</label><label onclick="" class="toggle-btn"><input type="radio" name="out_schema_graph" value="out_schema">Schema</label>
+              </div>
+            </div>
+          </div>
+          <div class="toggle-btn-grp box">
+            <label onclick="" class="toggle-btn success"><input type="radio" name="auxiliary" value="inspector"/>Inspect</label><label onclick="" class="toggle-btn"><input type="radio" name="auxiliary" value="inspector_log"/>Log</label><label onclick="" class="toggle-btn"><input type="radio" name="auxiliary" value="inspector_history"/>History</label><label onclick="" class="toggle-btn"><input type="radio" name="auxiliary" value="inspector_out"/>Out</label><label onclick="" class="toggle-btn"><input type="radio" name="auxiliary" value="inspector_in"/>In</label>
+          </div>
+        </div>
+      </div>
+      <div id="center-panel">
+        <div id="graph-container"></div><div id="source-panel"><h1>Sources</h1><div id="available_sources"></div><canvas id="timeline" style="background-color:black"></canvas></div>
+      </div>
+  </div>
+      <script src="/Scripts/d3.js"></script>
+    <script src="/app.js"></script>
+    <script src="/schema-edit.js"></script>
+</body>
+</html>

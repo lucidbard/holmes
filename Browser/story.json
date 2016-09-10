@@ -1,0 +1,569 @@
+{
+  "name": "default graph",
+  "type": "semantic_graph",
+  "schema": "StoryIntentionGraph.json",
+  "schemaVersion": "1.0",
+  "schemaId" : 0,
+  "version": "0.0.0",
+  "graphId":0,
+  "nodes": [
+    {
+      "id": 1,
+      "reflexive": false,
+      "type": "TE",
+      "type_id": 0,
+      "x": 60,
+      "y": 463.00525958320816,
+      "index": 0,
+      "weight": 2,
+      "px": 66.1497377234532,
+      "py": 463.714577645172,
+      "properties": 
+        [{
+            "typeValues":["More text"]
+        }]
+    },
+    {
+      "id": 2,
+      "reflexive": false,
+      "type": "TE",
+      "type_id": 0,
+      "x": 60,
+      "y": 658.3171342527974,
+      "index": 1,
+      "weight": 3,
+      "px": 65.30713391183369,
+      "py": 658.3098336206723,
+        "properties":
+        {
+            "typeValues":["More text"]
+        }
+    },
+    {
+      "id": 3,
+      "reflexive": false,
+      "type": "TE",
+      "type_id": 0,
+      "x": 60,
+      "y": 853.3377747574445,
+      "index": 2,
+      "weight": 2,
+      "px": 66.14815954940622,
+      "py": 852.6300769058375,
+        "properties":
+        {"typeValues":["More text"]}
+        
+    },
+    {
+      "id": 4,
+      "reflexive": false,
+      "type": "P",
+      "type_id": 1,
+      "x": 481.4485510305322,
+      "y": 475.28727674017995,
+      "index": 3,
+      "weight": 2,
+      "px": 482.8248382417882,
+      "py": 476.1292866461801
+    },
+    {
+      "id": 5,
+      "reflexive": false,
+      "type": "P",
+      "type_id": 1,
+      "x": 477.986202957074,
+      "y": 658.5842001756895,
+      "index": 4,
+      "weight": 2,
+      "px": 479.26843869094654,
+      "py": 658.5703020181813
+    },
+    {
+      "id": 6,
+      "reflexive": false,
+      "type": "P",
+      "type_id": 1,
+      "x": 481.36112150319417,
+      "y": 841.1254454973259,
+      "index": 5,
+      "weight": 2,
+      "px": 482.7406832112725,
+      "py": 840.2836479533098
+    },
+    {
+      "id": 7,
+      "reflexive": false,
+      "type": "S",
+      "type_id": 2,
+      "state_id": 0,
+      "x": 894,
+      "y": 504.07771956224906,
+      "index": 6,
+      "weight": 3,
+      "px": 893.7486841764411,
+      "py": 504.9418231725771
+    },
+    {
+      "id": 8,
+      "reflexive": false,
+      "type": "S",
+      "type_id": 2,
+      "state_id": 1,
+      "x": 894,
+      "y": 658.1965058525786,
+      "index": 7,
+      "weight": 4,
+      "px": 893.4175673171588,
+      "py": 658.1846213761357
+    },
+    {
+      "id": 9,
+      "reflexive": false,
+      "type": "S",
+      "type_id": 2,
+      "state_id": 2,
+      "x": 894,
+      "y": 812.953351142445,
+      "index": 8,
+      "weight": 3,
+      "px": 893.626233227027,
+      "py": 812.0908584531197
+    },
+    {
+      "id": 10,
+      "reflexive": false,
+      "type": "T",
+      "type_id": 3,
+      "x": 1281,
+      "y": 658.7175387362199,
+      "index": 9,
+      "weight": 3,
+      "px": 1267.826917846296,
+      "py": 658.7126258910549
+    }
+  ],
+  "links": [
+    {
+      "source": {
+        "id": 1,
+        "reflexive": false,
+        "type": "TE",
+        "type_id": 0,
+        "x": 60,
+        "y": 463.00525958320816,
+        "index": 0,
+        "weight": 2,
+        "px": 66.1497377234532,
+        "py": 463.714577645172,
+        "properties": [
+          "More text"
+        ]
+      },
+      "target": {
+        "id": 2,
+        "reflexive": false,
+        "type": "TE",
+        "type_id": 0,
+        "x": 60,
+        "y": 658.3171342527974,
+        "index": 1,
+        "weight": 3,
+        "px": 65.30713391183369,
+        "py": 658.3098336206723,
+        "properties": [
+          "Even more text"
+        ]
+      },
+      "left": false,
+      "right": true,
+        "type": "f",
+        "id":1
+    },
+    {
+      "source": {
+        "id": 2,
+        "reflexive": false,
+        "type": "TE",
+        "type_id": 0,
+        "x": 60,
+        "y": 658.3171342527974,
+        "index": 1,
+        "weight": 3,
+        "px": 65.30713391183369,
+        "py": 658.3098336206723,
+        "properties": [
+          "Even more text"
+        ]
+      },
+      "target": {
+        "id": 3,
+        "reflexive": false,
+        "type": "TE",
+        "type_id": 0,
+        "x": 60,
+        "y": 853.3377747574445,
+        "index": 2,
+        "weight": 2,
+        "px": 66.14815954940622,
+        "py": 852.6300769058375,
+        "properties": [
+          "Such text"
+        ]
+      },
+      "left": false,
+      "right": true,
+        "type": "f",
+        "id":2
+    },
+    {
+      "source": {
+        "id": 7,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 0,
+        "x": 894,
+        "y": 504.07771956224906,
+        "index": 6,
+        "weight": 3,
+        "px": 893.7486841764411,
+        "py": 504.9418231725771
+      },
+      "target": {
+        "id": 8,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 1,
+        "x": 894,
+        "y": 658.1965058525786,
+        "index": 7,
+        "weight": 4,
+        "px": 893.4175673171588,
+        "py": 658.1846213761357
+      },
+      "left": false,
+      "right": true,
+        "type": "f",
+        "id":3
+    },
+    {
+      "source": {
+        "id": 8,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 1,
+        "x": 894,
+        "y": 658.1965058525786,
+        "index": 7,
+        "weight": 4,
+        "px": 893.4175673171588,
+        "py": 658.1846213761357
+      },
+      "target": {
+        "id": 9,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 2,
+        "x": 894,
+        "y": 812.953351142445,
+        "index": 8,
+        "weight": 3,
+        "px": 893.626233227027,
+        "py": 812.0908584531197
+      },
+      "left": false,
+      "right": true,
+        "type": "f",
+        "id":4
+    },
+    {
+      "source": {
+        "id": 1,
+        "reflexive": false,
+        "type": "TE",
+        "type_id": 0,
+        "x": 60,
+        "y": 463.00525958320816,
+        "index": 0,
+        "weight": 2,
+        "px": 66.1497377234532,
+        "py": 463.714577645172,
+        "properties": [
+          "More text"
+        ]
+      },
+      "target": {
+        "id": 4,
+        "reflexive": false,
+        "type": "P",
+        "type_id": 1,
+        "x": 481.4485510305322,
+        "y": 475.28727674017995,
+        "index": 3,
+        "weight": 2,
+        "px": 482.8248382417882,
+        "py": 476.1292866461801
+      },
+      "left": false,
+      "right": true,
+        "type": "ia",
+        "id":5
+    },
+    {
+      "source": {
+        "id": 2,
+        "reflexive": false,
+        "type": "TE",
+        "type_id": 0,
+        "x": 60,
+        "y": 658.3171342527974,
+        "index": 1,
+        "weight": 3,
+        "px": 65.30713391183369,
+        "py": 658.3098336206723,
+        "properties": [
+          "Even more text"
+        ]
+      },
+      "target": {
+        "id": 5,
+        "reflexive": false,
+        "type": "P",
+        "type_id": 1,
+        "x": 477.986202957074,
+        "y": 658.5842001756895,
+        "index": 4,
+        "weight": 2,
+        "px": 479.26843869094654,
+        "py": 658.5703020181813
+      },
+      "left": false,
+      "right": true,
+        "type": "ia",
+        "id":6
+    },
+    {
+      "source": {
+        "id": 3,
+        "reflexive": false,
+        "type": "TE",
+        "type_id": 0,
+        "x": 60,
+        "y": 853.3377747574445,
+        "index": 2,
+        "weight": 2,
+        "px": 66.14815954940622,
+        "py": 852.6300769058375,
+        "properties": [
+          "Such text"
+        ]
+      },
+      "target": {
+        "id": 6,
+        "reflexive": false,
+        "type": "P",
+        "type_id": 1,
+        "x": 481.36112150319417,
+        "y": 841.1254454973259,
+        "index": 5,
+        "weight": 2,
+        "px": 482.7406832112725,
+        "py": 840.2836479533098
+      },
+      "left": false,
+      "right": true,
+        "type": "ia",
+        "id":7
+    },
+    {
+      "source": {
+        "id": 4,
+        "reflexive": false,
+        "type": "P",
+        "type_id": 1,
+        "x": 481.4485510305322,
+        "y": 475.28727674017995,
+        "index": 3,
+        "weight": 2,
+        "px": 482.8248382417882,
+        "py": 476.1292866461801
+      },
+      "target": {
+        "id": 7,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 0,
+        "x": 894,
+        "y": 504.07771956224906,
+        "index": 6,
+        "weight": 3,
+        "px": 893.7486841764411,
+        "py": 504.9418231725771
+      },
+      "left": false,
+      "right": true,
+        "type": "ba",
+        "id":8
+    },
+    {
+      "source": {
+        "id": 5,
+        "reflexive": false,
+        "type": "P",
+        "type_id": 1,
+        "x": 477.986202957074,
+        "y": 658.5842001756895,
+        "index": 4,
+        "weight": 2,
+        "px": 479.26843869094654,
+        "py": 658.5703020181813
+      },
+      "target": {
+        "id": 8,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 1,
+        "x": 894,
+        "y": 658.1965058525786,
+        "index": 7,
+        "weight": 4,
+        "px": 893.4175673171588,
+        "py": 658.1846213761357
+      },
+      "left": false,
+      "right": true,
+        "type": "ba",
+        "id":9
+    },
+    {
+      "source": {
+        "id": 6,
+        "reflexive": false,
+        "type": "P",
+        "type_id": 1,
+        "x": 481.36112150319417,
+        "y": 841.1254454973259,
+        "index": 5,
+        "weight": 2,
+        "px": 482.7406832112725,
+        "py": 840.2836479533098
+      },
+      "target": {
+        "id": 9,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 2,
+        "x": 894,
+        "y": 812.953351142445,
+        "index": 8,
+        "weight": 3,
+        "px": 893.626233227027,
+        "py": 812.0908584531197
+      },
+        "left": false,
+        "right": true,
+        "type": "ba",
+        "id":10
+    },
+    {
+      "source": {
+        "id": 7,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 0,
+        "x": 894,
+        "y": 504.07771956224906,
+        "index": 6,
+        "weight": 3,
+        "px": 893.7486841764411,
+        "py": 504.9418231725771
+      },
+      "target": {
+        "id": 10,
+        "reflexive": false,
+        "type": "T",
+        "type_id": 3,
+        "x": 1281,
+        "y": 658.7175387362199,
+        "index": 9,
+        "weight": 3,
+        "px": 1267.826917846296,
+        "py": 658.7126258910549
+      },
+      "left": false,
+      "right": true,
+        "type": "in",
+        "id":11
+    },
+    {
+      "source": {
+        "id": 8,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 1,
+        "x": 894,
+        "y": 658.1965058525786,
+        "index": 7,
+        "weight": 4,
+        "px": 893.4175673171588,
+        "py": 658.1846213761357
+      },
+      "target": {
+        "id": 10,
+        "reflexive": false,
+        "type": "T",
+        "type_id": 3,
+        "x": 1281,
+        "y": 658.7175387362199,
+        "index": 9,
+        "weight": 3,
+        "px": 1267.826917846296,
+        "py": 658.7126258910549
+      },
+      "left": false,
+      "right": true,
+        "type": "in",
+        "id":12
+    },
+    {
+      "source": {
+        "id": 9,
+        "reflexive": false,
+        "type": "S",
+        "type_id": 2,
+        "state_id": 2,
+        "x": 894,
+        "y": 812.953351142445,
+        "index": 8,
+        "weight": 3,
+        "px": 893.626233227027,
+        "py": 812.0908584531197
+      },
+      "target": {
+        "id": 10,
+        "reflexive": false,
+        "type": "T",
+        "type_id": 3,
+        "x": 1281,
+        "y": 658.7175387362199,
+        "index": 9,
+        "weight": 3,
+        "px": 1267.826917846296,
+        "py": 658.7126258910549
+      },
+      "left": false,
+      "right": true,
+        "type": "in",
+        "id":13
+        
+    }
+  ]
+}
